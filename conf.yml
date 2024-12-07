@@ -1,0 +1,35 @@
+info:
+  name: "SFTP Button"
+  identifier: "sftpbutton"
+  description: "Add a simple button in the file manager to open an SFTP connection to the current directory."
+  flags: ""
+  version: "1.0.0"
+  target: "beta-2024-08"
+  author: "0x7d8"
+  icon: ""
+
+admin:
+  view: "admin.blade.php"
+  controller: ""
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: ""
+  wrapper: ""
+  components: "components"
+
+data:
+  directory: ""
+  public: ""
+
+requests:
+  views: ""
+  controllers: ""
+  routers:
+    application: ""
+    client: ""
+    web: ""
+
+database:
+  migrations: ""

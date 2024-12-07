@@ -1,0 +1,76 @@
+Navigation:
+  NavigationBar: 
+    BeforeNavigation: ""
+    AdditionalItems: ""
+    AfterNavigation: ""
+  SubNavigation:
+    BeforeSubNavigation: ""
+    AdditionalServerItems: ""
+    AdditionalAccountItems: ""
+    AfterSubNavigation: ""
+  Routes:
+  # - { Name: "", Path: "", Type: "account/server", Component: "", AdminOnly: "boolean" }
+
+Dashboard:
+  ServerRow:
+    BeforeEntryName: ""
+    AfterEntryName: ""
+    BeforeEntryDescription: ""
+    AfterEntryDescription: ""
+    ResourceLimits: ""
+
+Authentication:
+  Container:
+    BeforeContent: ""
+    AfterContent: ""
+
+Account:
+  Overview:
+    BeforeContent: ""
+    AfterContent: ""
+  API:
+    BeforeContent: ""
+    AfterContent: ""
+  SSH:
+    BeforeContent: ""
+    AfterContent: ""
+
+Server:
+  Terminal:
+    BeforeContent: ""
+    AfterContent: ""
+  Files:
+    Browse:
+      BeforeContent: ""
+      FileButtons: "SftpButton"
+      DropdownItems: ""
+      AfterContent: ""
+    Edit:
+      BeforeEdit: ""
+      AfterEdit: ""
+  Databases:
+    BeforeContent: ""
+    AfterContent: ""
+  Schedules:
+    List:
+      BeforeContent: ""
+      AfterContent: ""
+    Edit:
+      BeforeEdit: ""
+      AfterEdit: ""
+  Users:
+    BeforeContent: ""
+    AfterContent: ""
+  Backups:
+    BeforeContent: ""
+    DropdownItems: ""
+    AfterContent: ""
+  Network:
+    BeforeContent: ""
+    AfterContent: ""
+  Startup:
+    BeforeContent: ""
+    AfterContent: ""
+  Settings:
+    BeforeContent: ""
+    AfterContent: ""
